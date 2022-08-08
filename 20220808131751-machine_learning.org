@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       c8fd948c-556b-4f7c-aa80-c5f83904a39a
+:END:
+#+title: Machine Learning
+
+Machine Learning is a field of computer science that changes the paradigm.
+
+Traditionally, a computer program tells a computer what to do; in other words,
+we used to tell a computer exactly what steps an operations it needs to perform
+a given task. The flow of this kind of programs is as follows:
+#+begin_src
+rules -> data -> results
+#+end_src
+
+In ML, the order of the flow changes. We now feed data to the model, and let it
+figure out its own rules in order to return the appropiate result for a given
+task.
+
+Machine Learning is divided into 4 main subtasks, depending on what the model
+returns as output:
++ [[id:2918962a-9108-4527-a30e-d550d0e994c6][Classification]] :: a class label
++ [[id:a33d2fe0-29c5-4c6e-b8ae-1d234ab222a8][Regression]] :: a number
++ [[id:acf4cdd8-6a2a-46df-935f-eb874f5416da][Recall]] :: a /pattern/ (vector)
++ [[id:c59ccb16-6bd4-43bd-b84b-a94aa28b9d05][Clustering]] :: nothing
+
+Another typical division for Machine Learning is into:
++ Supervised Learning :: we tell the model what is the corresponding output for
+  a given input. [[id:2918962a-9108-4527-a30e-d550d0e994c6][Classification]], [[id:a33d2fe0-29c5-4c6e-b8ae-1d234ab222a8][Regression]] and [[id:acf4cdd8-6a2a-46df-935f-eb874f5416da][Recall]] are tasks of this kind of
+  learning.
++ Unsupervised Learning :: we don't tell the model what output we are expecting;
+  then, the algorithm must figure out what are some similiraties between /pattern/s.
+
+* Patterns
+  A /pattern/ is a representation of the particular objects of study. It can be,
+  either symbolical or numerical. This representation is usually given in the
+  form of a tuple or a vector. A tuple is usually used when non-numerical
+  features are used (can be in conjuction with numerical features); a vector is
+  used when only numerical features are used.
+
+Examples of patterns:
+#+begin_src python
+symbolic_pattern = ('Marco', 'Cardoso', 1, 2, 1.7, 28)
+numeric_pattern = [1.7, 3400, 42, 21, -1, 4]
+#+end_src
+
+* Features
++ These are the characteristics of the object of study, they are what define a
+given object. Data are the values assigned to each feature for a given object.
++ A collection of features form a pattern
++ Synonyms of features are:
+  - Attributes
+  - Variables
+
+* Datasets
++ Datasets are collections of patterns gathered for a particular task.
++ The number of patterns in a dataset is refered to as its /dimension/.
++ The number of features of the dataset's patterns is refered to as its
+  /cardinality/.
+* Notation
+We usually denote the set of input vectors as $X$, whereas a single vector is
+refered to as $x$; hence, $x \in X$.
+
+On the other hand, there is another set, refered to as $Y$, which is directly
+related to the vectors $x$. The form of the elements $y \in Y$ depends on what
+task we are working on:
++ classification :: the elements $y \in Y$ are *class labels*
++ regression :: the elements $y \in Y$ are *real numbers*
++ recall :: the elements $y \in Y$ are *vectors*
++ clustering :: there are NO $y \in Y$ elements, they do not exist
+
+This makes more evident why there is a classification of Machine Learning into
+Supervised and unsupervised Learning.
