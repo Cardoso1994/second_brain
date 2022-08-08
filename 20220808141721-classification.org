@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       2918962a-9108-4527-a30e-d550d0e994c6
+:END:
+#+title: Classification
+
+A subtask of [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]].
+
++ The input vectors are refered to as $x \in X$
++ Each of this vectors $x$ are related to an element $y \in Y$, where $y$ refers
+  to a given class label.
++ The task of any classifier is to learn the similarities between all input
+  vectors $x$ that are related to the same element $y \in Y$; in other words, a
+  classifier learns the similiraties between all the input vectors that belong
+  to the same class.
++ At the same time, the model has to be able to learn the differences between
+  vectors that belong to different classes.
++ In general, an intelligent pattern classifier consists of four elements:
+  - dataset
+  - validation method :: performs a split on the dataset, creating two new and
+    *disjoint* sets: training and validation (and/or testing) sets
+  - superstructure :: theoretical basis for the classifier to /learn/. For
+    example, for the kNN classifier the superstructure is some kind of metric,
+    for instance, Euclidean; for the Naives Bayes classifier the superstructure
+    is the Bayes Theorem.
+  - performance metric :: a metric to evaluate how good the model is performing.
+
+* Dataset Complexity
+There are many reasons why a classification dataset may be considered complex:
++ high cardinality :: large number of features. /Fixed/ with Feature Selection
+  techniques (remove some features)
++ high dimensionality :: large number of patterns. /Fixed/ with Object Selection
+  techniques (remove some patterns)
++ mixed values :: patterns containing both categorical and numerical attribute
+  values. /Fixed/ by converting categorical attributes into numerical.
++ missing values :: for some patterns, there are one or more features for which
+  there is no value recorded in the dataset. /Fixed/ by imputation (assigning
+  values to missing fields, generally via statistic methods)
++ overlaping classes ::
++ Imbalanced dataset :: When one class has significantly more patterns that the
+  rest of them. It is measured with the /Imbalance Ratio/:
+  $IR = |biggest_class| / |smallest_class|$. A dataset is considered to be
+  imbalanced if $IR > 1.5$
+
+* Classifiers
++ kNN
++ Euclidean
++ Decision Trees
++ Neural Networks
++ Naive Bayes
