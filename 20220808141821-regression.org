@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       a33d2fe0-29c5-4c6e-b8ae-1d234ab222a8
+:END:
+#+title: Regression
+A subtask of [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]]
