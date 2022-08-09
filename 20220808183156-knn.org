@@ -3,9 +3,9 @@
 :END:
 #+title: kNN
 
-The kNN algorithm is an intelligent pattern classifier. The name stands for
-*k nearest neighborgh*, where $$k$$ is the number of neighbors that will be taken
-into account for the classification operation.
+The kNN algorithm is an intelligent algorithm for pattern [[id:2918962a-9108-4527-a30e-d550d0e994c6][classification]]. The
+name stands for *k nearest neighborgh*, where $$k$$ is the number of neighbors
+that will be taken into account for the classification operation.
 
 + It uses some metric in space; generally euclidean distance or manhattan
   distance, which are [[id:7a0d38b0-72b6-4866-bced-4d3937baf55d][Minkowski Metrics]]
