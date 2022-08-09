@@ -24,6 +24,34 @@ A subtask of [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]].
     is the Bayes Theorem.
   - performance metric :: a metric to evaluate how good the model is performing.
 
+* Phases
+After applying a validation method; i.e., we have our dataset splitted into
+training and validation sets, the model performs two phases of operation:
+training and validation (or testing) phases.
+** Training Phase
+During this phase, the algorithm tries to learn similiarities from patterns that
+belong to the same class, while learining differences between patterns of
+different classes.
+
+In this stage, we:
+1. Feed the model with input vectors $x \in X$.
+2. Let the model perform its operations accordingly to its superstructure.
+3. receive as output a class label $\omega_k$.
+4. *in some algorithms:* compare $omega_k$ against the original class label
+   of $x \in X$, to adjust some internal parameters.
+
+
+** Classification Phase
+Once the model has been trained, it is time to perform some classification tasks
+based on the acquired knowledge. During this phase we:
+1. pass a new input vector *(not seen by the model during training)* $\tilde{x}$
+   to the model
+2. receive a class label as output from the model
+3. compare the output of the model with the previously (and originally) known
+   label of $\tilde{x}$:
+   1. if both labels are the same, the classification is *correct*.
+   2. if the labels are different, the classification is *wrong*.
+
 * Dataset Complexity
 There are many reasons why a classification dataset may be considered complex:
 + high cardinality :: large number of features. /Fixed/ with Feature Selection
@@ -42,7 +70,7 @@ There are many reasons why a classification dataset may be considered complex:
   imbalanced if $IR > 1.5$
 
 * Classifiers
-+ kNN
++ [[id:eb8710f0-c7b8-4a6b-8a94-9c5d4040dfea][kNN]]
 + Euclidean
 + Decision Trees
 + Neural Networks
