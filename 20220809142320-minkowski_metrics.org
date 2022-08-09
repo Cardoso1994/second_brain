@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       7a0d38b0-72b6-4866-bced-4d3937baf55d
+:END:
+#+title: Minkowski Metrics
+
++ Family of metrics.
++ This family is of infinite cardinality.
+
+The Minkowski metric of order $$p$$ is computed as:
+\begin{equation*}
+d_p = \left( \sum_{i=1}^{n} \vert x_i - y_i \vert^p \right)^{\frac{1}{p}}
+\end{equation*}
+
++ The *euclidean distance* is the same as the Minkowski metric of order 2:
+\begin{equation*}
+d_2 = \left( \sum_{i=1}^{n} \vert x_i - y_i \vert^2 \right)^{\frac{1}{2}}
+\end{equation*}
++ The *manhattan distance* (or /city block/) is the Minkowski metric of order 1:
+\begin{equation*}
+d_1 = \left( \sum_{i=1}^{n} \vert x_i - y_i \vert^1 \right)^{\frac{1}{1}}
+ = \sum_{i = 1}^{n} \vert x_i - y_i \vert
+\end{equation*}
++ The *Chevyshev distance* (or /chessboard/) is the Minowski metric of order
+  $$\infty$$:
+\begin{equation*}
+d_\infty = \left( \sum_{i=1}^{n} \vert x_i - y_i \vert^\infty \right)
+    ^{\frac{1}{\infty}}
+\end{equation*}
+which is expressed more generally as:
+\begin{equation*}
+d_\infty = \vee_{i = 1}^{n} \vert x_i - y_i \vert
+\end{equation*}
