@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       eb8710f0-c7b8-4a6b-8a94-9c5d4040dfea
+:END:
+#+title: kNN
+
+The kNN algorithm is an intelligent pattern classifier. The name stands for
+*k nearest neighborgh*, where $$k$$ is the number of neighbors that will be taken
+into account for the classification operation.
+
++ It uses some metric in space; generally euclidean distance or manhattan
+  distance, which are [[id:7a0d38b0-72b6-4866-bced-4d3937baf55d][Minkowski Metrics]]
++ the kNN is a family of algorithms, each one of them defined by the number $$k$$
+* Training Phase
++ It is a *lazy* algorithm, meaning that *it doesn't have a training phase*.
++ The only thing it does is to place all input patterns in a $$n$$-dimensional
+  space, where $$n$$ is the number of attributes in the patterns.
+* Classification Phase
++ places the input vector $$\tilde{x}$$ in the $$n$$-dimensional space
++ search for the $$k$$ patterns that are the closest to $$\tilde{x}$$, according
+  to a selected metric, normally euclidean or manhattan distances.
++ assign to $$\tilde{x}$$ the class that is the more present between the $$k$$
+  nearest neighbors.
+  - if $$k = 1$$, we only consider the nearest neighbor
+  - if $$k = 3$$, we consider the 3 nearest neighbors
+  - if $$k = 5$$, we consider the 5 nearest neighbors
+  - the greater the value of $$k$$, the more robust the algorithm
+  - using greater values of $$k$$ allow for disolving ties
+
+[[./img/knn.jpeg][knn visualization]]
