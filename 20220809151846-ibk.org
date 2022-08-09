@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       01250a8c-04db-47b7-a98b-b272a3c9f5d4
+:END:
+#+title: IBk
+
++ Family of algorithms based on the [[id:eb8710f0-c7b8-4a6b-8a94-9c5d4040dfea][kNN]] family; are considered an improvement
+  over the original kNN algorithms.
++ the $$k$$ parameter holds the same meaning than in the kNN family, i.e., $$k$$
+  is the number of nearest neighbors taken into account for the classification
++ capable of working with mixed values, i.e., patterns containing categorical
+  and numerical attributes; it can also handle missing values.
++ Instead of using a [[roam:Minkowski Metric]], it uses the HEOM metric, which is
+  computed as follows:
+  #+name: heom_prev
+  [[./img/heom.png][heom_metric]]
+after computing $$d_a(x_a, y_a)$$, according to ref:heom_prev, whe obtain the
+HEOM metric value with the following equation:
+\begin{equation*}
+HEOM(x, y) = \left( \sum_{a=1}^{m} d_a(x_a, y_a)^2  \right)^{\frac{1}{2}}
+\end{equation*}
+
++ for the case where there are only numerical attributes and no missing values,
+  we see that the HEOM computes a /normalized/ euclidean distance.

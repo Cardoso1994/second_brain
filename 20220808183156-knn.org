@@ -27,3 +27,7 @@ into account for the classification operation.
   - using greater values of $$k$$ allow for disolving ties
 
 [[./img/knn.jpeg][knn visualization]]
+
+There exists another family of algorithms, that are an improvement on the
+original kNN family, called: [[id:01250a8c-04db-47b7-a98b-b272a3c9f5d4][IBk]]; these algorithms are capable of working with
+mixed (categorical and numerical) data, as well as with missing values.

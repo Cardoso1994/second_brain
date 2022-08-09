@@ -70,7 +70,7 @@ There are many reasons why a classification dataset may be considered complex:
   imbalanced if $IR > 1.5$
 
 * Classifiers
-+ [[id:eb8710f0-c7b8-4a6b-8a94-9c5d4040dfea][kNN]]
++ [[id:eb8710f0-c7b8-4a6b-8a94-9c5d4040dfea][kNN]] and [[id:01250a8c-04db-47b7-a98b-b272a3c9f5d4][IBk]]
 + Euclidean
 + Decision Trees
 + Neural Networks
