@@ -74,4 +74,4 @@ There are many reasons why a classification dataset may be considered complex:
 + Euclidean
 + Decision Trees
 + Neural Networks
-+ Naive Bayes
++ [[id:b7ac9de1-8e9d-4e4f-8b08-0e626a54447a][Bayesian Classifiers]]

@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       3ae56ab7-2ac1-42ba-ae1c-d8db4ea22449
+:END:
+#+title: Bayes Theorem
+#+filetags: draft
+
+It helps us answer questions of the type: "what is the probability that certain
+event /A/ happens, given that we know /B/ has happened? ", in probability terms
+we express this as:  $$P(A \vert B)$$, and is computed with the following
+equation:
+\begin{equation*}
+P\left( B_k \vert A \right) =
+        \frac{P(B_{k}) P(A | B_{k})}{\sum_{i = 1}^{k} P(B_{i})P(A | B_{i})}
+\end{equation*}
+where:
++ $$A$$ is an event that has already happened
++ $$B_k$$ is the event we want to know if will happen or not
++ $$B = \{B_1, B_2, \dots, B_k\}$$ are all the events that could happen from
+  experiment $$B$$.

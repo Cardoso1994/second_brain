@@ -1,0 +1,75 @@
+:PROPERTIES:
+:ID:       b7ac9de1-8e9d-4e4f-8b08-0e626a54447a
+:END:
+#+title: Bayesian Classifiers
+
+These family of classifiers uses probability and statistics theory to perform
+the [[id:2918962a-9108-4527-a30e-d550d0e994c6][Classification]]  task. Specifically, they use /conditional probability/,
+i.e., the [[id:3ae56ab7-2ac1-42ba-ae1c-d8db4ea22449][Bayes Theorem]].
+
+* Naive Bayes
+\begin{equation*}
+P(c | x) = \frac{P(x|c) P(c)}{P(x)}
+\end{equation*}
+where:
++ $$c$$ :: class of a given input pattern
++ $$x$$ :: attributes
++ $$P(x|c)$$ :: likelihood of a pattern having the data $$x$$ given that it
+  belongs to class $$c$$
++ $$P(c)$$ :: prior. Probability of class $$c$$ being true. Percentage of
+  patterns in the dataset belonging to class $$c$$.
++ $$P(x)$$ :: evidence or marginalization.
+
+It is called /Naive/ because it assumes that the probabilities of data $$x$$ is
+independent of other data for a given class $$c$$.
+
+For a biclass classification task, with classes $$c_1$$ and $$c_2$$, we assign
+a given pattern $$x$$ to class $$c_1$$ if $$P(c_1 | x)$$; otherwise, we assign
+$$x$$ to class $$c_2$$.
+** Training Phase
++ Determine the probability of each class.
+  \begin{equation*}
+    P(class) = \frac{\mbox{ number of patterns belonging to } class}{\mbox{total number of patterns in training set}}
+  \end{equation*}
++ Create frequency tables. /Compute $$P(x | c_i)$$/
+  - One table per attribute
+  - For categorical attributes
+    | attribute | P(c_1)                                                          | P(c_...) | P(c_n) |
+    | value_1   | (patterns with value_1 and are class_1) / (patterns of class_1) |          |        |
+    | value_2   |                                                                 |          |        |
+    | value_... |                                                                 |          |        |
+    | value_k   |                                                                 |          |        |
+    *note:* is the same logic for all other cells in the table
+  - For numerical values: we compute $$P(x | c_i)$$ assuming a normal
+    distribution; i.e., we get the values of the mean $$\mu$$ and the standard
+    deviation $$\sigma$$ for each class
+    | attribute  | c_1                                        | c_... | c_n |
+    | $$\mu$$    | mean of attribute for patterns of class_1  |       |     |
+    | $$\sigma$$ |                                            |       |     |
+    *note:* is the same logic for all other cells in the table
+    once we have this values, we compute $$P(x| c_i)$$ as:
+** Classification Phase
+We receive an input patter, previously unseen by the model, and obtain the
+probabilities accordingly to the tables created in the training phase:
++ categorical attributes :: go to the corresponding cell in the attribute's table to get
+  $$P(X | c_i)$$:
+  - row :: the value in our input pattern
+  - column :: the class for which we are currently computing the probability
+     $$P(c_i | X)$$.
++ numerical attributes :: Compute $$P(X | c_i)$$:
+  - get $$\mu$$ and $$\sigma$$ values from the corresponding row for class
+    $$c_i$$, then:
+ \begin{equation*}
+    P(x_{p} | c) = N(x_{p}; \mu \sigma) = \frac{1}{\sqrt{2 \pi \sigma^2}} e ^{-\frac{(x - \mu)^{2}}{2 \sigma ^ 2}}
+ \end{equation*}
+
+For the actual classification, we use the formula:
+\begin{equation*}
+    \hat{y} = \mbox{arg max}_{c}\mbox{  } P(c_{i}) \prod_{i = 1}^{{n}}P(x_{i} | c_{i})
+\end{equation*}
+meaning that we will get a list of probabilities of length equals to the number
+of classes in our problem, and the class that will be assigned to the input
+pattern will be the one with the highest probability. Each element of this list
+is computed by multiplying the probability of each class in the dataset times
+each probability of the attribute having a value $$x_i$$ given that it belongs
+to class $$c_i$$.

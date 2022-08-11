@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1ea3fed6-1ad4-42ae-970a-e2306f9b2396
+:END:
+#+title: Probability
+#+filetags: draft
+
+Subfield of [[id:a415f8e7-e00e-4ca0-93c9-f3c58299ee2f][Math]]
+
++ [[id:3ae56ab7-2ac1-42ba-ae1c-d8db4ea22449][Bayes Theorem]]
