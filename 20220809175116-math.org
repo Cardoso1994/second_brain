@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a415f8e7-e00e-4ca0-93c9-f3c58299ee2f
+:END:
+#+title: Math
+
+Maths
++ [[id:95e3ea05-2e87-4fd1-ace3-4e1592b49580][Set]] theory

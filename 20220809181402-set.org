@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       95e3ea05-2e87-4fd1-ace3-4e1592b49580
+:END:
+#+title: Set
+Set theory is a subfield of discrete [[id:a415f8e7-e00e-4ca0-93c9-f3c58299ee2f][Math]]
++ A set is a collection of objects called members or elements
+  \begin{equation*}
+    A = \{a, b, c\}
+  \end{equation*}
+  $$A$$ is the set with $$a, b$$ and $$c$$ as its members.
++ A set is also called a /collection/ or a /family/
+
+* Frequent used sets
++ $$\mathbb{N}$$ :: the set of all nonnegative integers
++ $$\mathbb{N}^+$$ :: the set of all positive integers
++ $$\emptyset = \{ \}$$ :: the empty set (a set with no elements)
+
+* Notation
++ $$\in$$ :: it is an element of. For example: $$x \in X$$ means that the
+  object $$x$$ is an element of the set $$X$$.
++ $$\not \in$$ :: means it is not an element of. $$x \not \in Y$$ means that
+  $$x$$ is not an element of the set $$Y$$.
+
+* Operations
++ $$A \cup B$$ :: represents the *union* of set /A/ and /B/, which is a new set
+  formed by all elements that are present either in /A/ or /B/.
++ $$A \cap B$$ :: represents the *intersection* of set /A/ and /B/, which is a
+  new set formed by all elements that are *present in both* /A/ and /B/.
++ $$A - B$$ :: is the /difference/ of two sets, /A/ and /B/, which results in a
+  new set formed by all elements of /A/ that are not present in /B/. The set
+  $$A - B$$ is also called /the complement of B with respect to A/.
++ $$A \times B$$ :: is the cartesian product of two sets. It is a new set of all
+  ordered tuples $$(a, b)$$ where $$a \in A, b \in B$$.
+  *Note:* $$A \times B \neq B \times A$$ since order matters.
+* Cardinality
+It is a measure of how many elements are in a set or, in other words, the number
+of members in a set, it is represented as $$\vert set \vert$$.
+
+The cardinality of two sets, $$X$$ and $$Y$$ is /less than or equal to/,
+*if and only if* there is a correspondence of each element of $$X$$ with a
+unique element of $$Y$$. It is denoted as
+$$\vert X \vert \leq \vert Y \vert$$. The cardinality of two sets,
+$$X$$ and $$Y$$ are equal, $$\vert X \vert = \vert Y \vert$$, if
+$$\vert X \vert \leq \vert Y \vert$$ and $$\vert Y \vert \leq \vert X \vert$$
+
+We have two categories of sets, based on their cardinality:
++ finite set :: set with a finite number of elements in it
++ infinite set :: set with an inifinite number of elements. Here, we have two
+
+For finite sets, is easy to compute their cardinality:
+\begin{equation*}
+A = \{ 1, 2, 3 \}; \vert A \vert = 3
+\end{equation*}
+
+Nonetheless, it is not that easy for infinite sets, *not all infinites are the
+same*; think of the set $$\mathbb{N}$$, it has an infinite number of elements,
+but the set $$\mathbb{R}$$, although inifinite as well, has much more elements
+than the previous.
+
+For infinite sets, we also have two subcategories:
++ countable sets :: we can /count/ them, i.e., we can assign a natural number
+  to each one of its elements. The cardinality of any infinite countable set,
+  $$X$$ is $$\vert X \vert \leq \vert \mathbb{N} \vert$$.
++ uncountable sets ::  we cannot /count/ them; there are more elements in it
+  than natural numbers to assign to each one of them. For example, the *real*
+  numbers $$\mathbb{R}$$.
