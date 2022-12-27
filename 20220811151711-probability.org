@@ -4,6 +4,11 @@
 #+title: Probability
 #+filetags: draft
 
-Subfield of [[id:a415f8e7-e00e-4ca0-93c9-f3c58299ee2f][Math]]
+Subfield of [[id:a415f8e7-e00e-4ca0-93c9-f3c58299ee2f][Math]].
+
+Basically consists on predicting future events given previously collected data;
+the likelihood of occurrence of a given event.
+
+Both [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and Probability are intimately related.
 
 + [[id:3ae56ab7-2ac1-42ba-ae1c-d8db4ea22449][Bayes Theorem]]

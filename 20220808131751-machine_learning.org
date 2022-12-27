@@ -3,7 +3,7 @@
 :END:
 #+title: Machine Learning
 
-Machine Learning is a field of computer science that changes the paradigm.
+Machine Learning (ML) is a field of computer science that changes the paradigm.
 
 Traditionally, a computer program tells a computer what to do; in other words,
 we used to tell a computer exactly what steps an operations it needs to perform
