@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1b63d5d6-2956-436d-8e0e-9374ad160f44
+:END:
+#+title: Statistics
+
+Subfield of [[id:a415f8e7-e00e-4ca0-93c9-f3c58299ee2f][Math]].
+
+Involves the analysis of the frequency of past events.
+
+Both Statistics and [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]] are intimately related.

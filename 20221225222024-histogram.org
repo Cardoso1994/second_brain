@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       8b1600f8-ecaf-4c98-9d60-d18e3fd83953
+:END:
+#+title: Histogram
+
+In [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]], a Histogram is used to see how data is
+distributed. It can also be used to approximate probabilities of finding new
+data in the different values of the distribution.
+
+It is created by:
++ collecting some data (the more the better, obviously), for
+  example: height of people.
++ Once all data is collected, we check the range of values:
+  $\max - \min$, and divide that range into /bins/
++ each bin correspond to a given subrange inside the range of values for such
+  variable
++ we place all measurments into their corresponding bin (according to the values
+  computed)
++ the taller the bin in the histogram, the more values we have in that bin,
+  implying that there is higher probability of a new value falling in such bin.
+
+#+name: Histogram of people's height.
+[[file:./img/histogram.png]]
+
+*Note:* selecting the number of bins is kind of tricky; then, an iterative
+process to find out the best representation of the data is needed (try out
+different numbers of bins).

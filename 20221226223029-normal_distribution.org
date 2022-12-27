@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9db9e335-c01f-4ac5-8c93-d88d7d5d3d7b
+:END:
+#+title: Normal Distribution
+
+The *normal distribution* is a [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]] distribution; it also receives the
+name of /Gaussian/ distribution.
+
+Its shape is that of a bell, so it can only be refered to as /Gaussian bell/.
+
++ It is always *centered around the mean* value of the distribution.
++ The width of the bell is defined by the *standard deviation* of the
+  distribution.
++ Tipycally, in a normal distribution, 95% of the samples fall in the range of
+  the mean +/- two stds.
+
+  [[./img/normal_distribution.png]]
