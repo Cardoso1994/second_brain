@@ -12,3 +12,4 @@ the likelihood of occurrence of a given event.
 Both [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and Probability are intimately related.
 
 + [[id:3ae56ab7-2ac1-42ba-ae1c-d8db4ea22449][Bayes Theorem]]
++ [[id:4c88264e-a06a-4454-af82-45133c1c108f][population and estimated parameters]]

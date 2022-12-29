@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       ebcc3101-af2b-40a3-a520-7d7937950e2f
+:END:
+#+title: standard deviation

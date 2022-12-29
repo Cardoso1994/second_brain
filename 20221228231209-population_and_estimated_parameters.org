@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       4c88264e-a06a-4454-af82-45133c1c108f
+:END:
+#+title: population and estimated parameters
+
+In [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]], when we fit a curve to a [[id:8b1600f8-ecaf-4c98-9d60-d18e3fd83953][Histogram]], for example,
+via a Gaussian Bell Curve, otherwise known as [[id:9db9e335-c01f-4ac5-8c93-d88d7d5d3d7b][Normal Distribution]], such curve is
+said to /fit the population/. This curve fits the whole population of the
+phenomenon we are studying; generally, we do not have the resources (time or
+money) to sample data from the whole population, so most of the times we sample
+a few datapoints and, based on them we /estimate/ the population values.
+
+Examples of population values are: population [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]] and population
+[[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]], while the estimated counterparts are the /estimated [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]]/
+and /estimated [[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]]/.
+
+The reason behind estimating population values is to get /reproducible/ results,
+i.e., the results obtained in an experiment with estimated parameters can be
+obtained in a different experiment for the same phenomenon. Normally, the
+estimated values will differ both from experiment to experiment and from the
+original population values, which is why one need to compute [[id:3156856d-8849-486f-b5da-6d4cca9a0fa6][p-values]] or
+[[id:b17f7810-c556-4391-b953-01a8e37ea6f3][confidence intervals]], *to see how confident we can be of our sampled data and
+the results computed from it*.
+
+Generally speaking, *the more data, the more confidence we can have in the
+computed results*

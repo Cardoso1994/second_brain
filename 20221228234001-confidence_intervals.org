@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       b17f7810-c556-4391-b953-01a8e37ea6f3
+:END:
+#+title: confidence intervals

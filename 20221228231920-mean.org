@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       266184a6-f699-4dd1-9390-08f0fa52f5b1
+:END:
+#+title: mean
