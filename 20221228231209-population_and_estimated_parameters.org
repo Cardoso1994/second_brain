@@ -11,8 +11,8 @@ money) to sample data from the whole population, so most of the times we sample
 a few datapoints and, based on them we /estimate/ the population values.
 
 Examples of population values are: population [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]] and population
-[[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]], while the estimated counterparts are the /estimated [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]]/
-and /estimated [[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]]/.
+[[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]] and [[id:6dad2484-02b8-4e96-a896-e0f95076667c][variance]], while the estimated counterparts are the
+/estimated [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]]/, /estimated [[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]]/ and /estimated [[id:6dad2484-02b8-4e96-a896-e0f95076667c][variance]]/.
 
 The reason behind estimating population values is to get /reproducible/ results,
 i.e., the results obtained in an experiment with estimated parameters can be
@@ -24,3 +24,9 @@ the results computed from it*.
 
 Generally speaking, *the more data, the more confidence we can have in the
 computed results*
+
+This can be seen as an analogous procedure to [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]], where the sample
+data with wich we are going to estimate values is *the training data*, while the
+population curve is the *function we are trying to aproximate* and, lastly, the
+estimated parameters as well as other results based on those, are the
+predictions carried on by the model.
