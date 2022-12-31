@@ -2,3 +2,37 @@
 :ID:       ebcc3101-af2b-40a3-a520-7d7937950e2f
 :END:
 #+title: standard deviation
+
+The standard deviation is an [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] measurement. It quantifies how spread
+the data are around the [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]] (either population or estimated). It is the square
+root of the [[id:6dad2484-02b8-4e96-a896-e0f95076667c][variance]]; since the variance's results is in units squared, making
+it unusable with the original data.
+
+It also has a [[id:4c88264e-a06a-4454-af82-45133c1c108f][population]] version, as well as an estimated; both are the square
+root of the population variance and the estimated variance, respectively.
+
+* Population Standard Deviation
+It is computed as follows:
+#+begin_src latex
+\begin{equation*}
+  \mbox{population std} = \sqrt{\mbox{population variance}}
+                        = \sqrt{\frac{\Sigma_{i}^{n}(x_{i} - \mu)^{2}}{n}}
+\end{equation*}
+#+end_src
+
+* Estimated Population Standard Deviation
+It is computed as follows:
+#+begin_src latex
+\begin{equation*}
+  \mbox{estimated std} = \sqrt{\mbox{estimated variance}}
+                        = \sqrt{\frac{\Sigma_{i}^{n}(x_{i} - \bar{x})^{2}}{n-1}}
+\end{equation*}
+#+end_src
+
+*Note:* Here we can see two subtle differences in the way the estimated std
+is computed when compared to the population std:
+1. we use the estimated mean
+2. we divide by $n-1$ instead of plain $n$. This is due to the fact that the
+   estimated mean will differ in some amount to the population one; then, we
+   divide by $n-1$ to compensate for the error that it is introduced by this
+   difference.

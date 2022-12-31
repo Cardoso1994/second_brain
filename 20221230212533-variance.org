@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       6dad2484-02b8-4e96-a896-e0f95076667c
+:END:
+#+title: variance
+
+The variance is an [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] measurement. It is used to quantify how spread the
+data are around the [[id:266184a6-f699-4dd1-9390-08f0fa52f5b1][mean]] (either population or estimated). In this case, there
+is a population variance and an estimated population variance. The difference
+between them is that the population variance uses the population mean in its
+computations, while the estimated one uses the estimated mean (among other
+things).
+
+* Population variance
+The population variance is computed against the population mean, via the
+following equation:
+#+begin_src latex
+\begin{equation*}
+  \mbox{variance} = \sigma^2
+                  = \frac{\Sigma_{i}^{n} \left( x_{i} - \mu \right)^2}{n}
+\end{equation*}
+#+end_src
+
+* Estimated population variance
+The estimated population variance is computed against the estimated mean, via
+the following equation:
+\begin{equation*}
+\mbox{estimated population variance} = \frac{\Sigma_i^n (x - \bar{x})^2}
+                                            {n-1}
+\end{equation*}
+
+*Note:* Here we can see two subtle differences in the way the estimated variance
+is computed when compared to the population variance:
+1. we use the estimated mean
+2. we divide by $n-1$ instead of plain $n$. This is due to the fact that the
+   estimated mean will differ in some amount to the population one; then, we
+   divide by $n-1$ to compensate for the error that it is introduced by this
+   difference.
+* Note
+The variance squares the values of the difference in order to make them all
+contribute to the variance computation. This because when computing the
+difference of values less than the mean, such difference will be negative, and
+will annulate the differences of the values greater than the mean.
+
+Although squaring the differences solves one problem, it introduces another, the
+units are squared as well, making it incompatible with the distribution curve.
+To overcome this issue, we use the [[id:ebcc3101-af2b-40a3-a520-7d7937950e2f][standard deviation]], which it is nothing more
+than the square root of the variance.

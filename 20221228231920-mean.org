@@ -2,3 +2,32 @@
 :ID:       266184a6-f699-4dd1-9390-08f0fa52f5b1
 :END:
 #+title: mean
+
+The mean is an [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] measurement. It basically tells us the average
+measurement of a distribution.
+
+When talking about the mean, there are two types of means typically used:
++ The [[id:4c88264e-a06a-4454-af82-45133c1c108f][population]] mean
++ The estimated mean
+
+* Population mean
+It is the average value of the whole population of the phenomen under study.
+We usually refer to it with the greek letter $\mu$ (mu).
+
+The population mean is computed as follows:
+
+\begin{equation*}
+  \mu = \frac{\mbox{sum of all measurents}}{\mbox{number of measurements}}}
+\end{equation*}
+
+* Estimated mean
+It is the average value of all *sampled data*. It differs from the population
+mean in the sense that population mean takes into account all data of the
+phenomenon.
+
+In contrast, the estimated mean is used when we only have a small set of samples
+(because of resources limitations, money or time). The estimated mean is
+typically refered to with $\bar{x}$, and the way to compute it is:
+\begin{equation*}
+    \bar{x} = \frac{\mbox{sum of all sampled values}}{\mbox{number of samples}}}
+\end{equation*}
