@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       46149054-94c7-43c9-9552-2386ed337787
+:END:
+#+title: null hypothesis
+
+In  [[id:5eda3501-cc78-4551-a52b-565f0b6b030b][hypothesis_testing]], it is important to select a good hypothesis to be
+tested. Following with those examples from such node, where we were testing
+if there were a difference on recovery times for people taking different drugs,
+we can state our initial hypothesis as:
+#+begin_quote
+There is no difference between recovery times of drugs A and B
+#+end_quote
+
+This hypothesis is also known as the *null hypothesis*; here we do not put an
+specific amount of recovery time since, when first facing a problem, we do not
+know beforehand if the difference is 1, 13, or 1000 hours, for example.
+
+If the results of the experiments do not offer overwhelmingly convincing
+evidence that there is a difference between recovery times, we *fail to reject
+the null hypothesis*. This might be the case when experiments do not give a
+clear difference on recovery times, maybe the difference is too short; maybe in
+some experiments drug /A/ is faster while in other it is drug /B/ the faster.
+These oscillations might be due to random factors such as diet, exercise, etc.,
+which are not controlable during the study and might even afect the results of
+the experiments, i.e., if one people in drug /A/ would have been a little bit
+healthier while a person in drug /B/ were a little obese, maybe the direction of
+the recovery time difference could be changed.
+
+On the other hand, if we perform a big study, with enough people so that random
+variations on the data would not affect the outcome of the recovery time difference,
+while such difference is of a significant value, we then *reject the null
+hypothesis*
