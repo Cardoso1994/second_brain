@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       5eda3501-cc78-4551-a52b-565f0b6b030b
+:END:
+#+title: hypothesis_testing
+
+In [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]], when we want to come to a conclusion
+about certain topic, we star with a hypothesis. This hypothesis may be derived
+from pure intuition only or maybe by the results obtained in an experiment.
+
+The hypothesis is then tested by performing several experiments, and evaluating
+these results against the hypothesis. Here, there are two possible outcomes:
+1. The results are in the opposite /direction/ when compared to what the
+   hypothesis states; if such is the case, we say that we *reject the
+   hypothesis*. In other words, the conclusion drawn from the experiments
+   following the hypothesis has a *different meaning* than the hypothesis
+   itself.
+
+2. The results are similar (although, maybe, not exactly the same) to those in
+   the hypothesis; this variation on the results between experiments is mostly
+   due to random stuff that cannot be controled in the experiments. Here, the
+   conclusion drawn from the experiments has the *same meaning* (with maybe
+   different values) than the hypothesis and, for this reason, we say that we
+   *fail to reject the hypothesis*
+
+* Example 1
+If we have two drugs, /A/ and /B/, and we measure how long people took to
+recover from their disease, we might end up with a result stating that people
+taking drug /A/ takes fewer hours to recover than people taking drug /B/. This
+is now the *hypothesis* we want to test.
+
+For testing such hypothesis, we perform several more experiments; the results
+from all of them show that people taking drug /B/ takes fewer hours to recover
+compared to those taking drug /A/.
+
+Then, since the hypothesis has a totally different meaning than the conclusion
+drawn from the experiments, we *reject the hypothesis*.
+
+* Example 2
+There are two drugs, /C/ and /D/, and we initially perform an experiment showing
+that people taking drug /C/ takes 13 fewer hours to recover than people taking
+drug /D/; this is the *hypothesis*.
+
+We perform several experiments, getting results similar in direction, i.e.,
+people taking drug /C/ is still taking less time to recover compared to people
+taking drug /D/, nevertheless, the ammount of hours differs in some ammount to
+that stated in the hypothesis. Maybe some results show a 12 hour difference, or
+13.1, or 13.25, etc., for this reason, since the results are not exactly the
+same, we do not have enough confidence to say our hypothesis is true; the best
+we can do is to *fail to reject the hypothesis*.
+
+* Note
+The more experiments we perform to test the hypothesis, the more confident we
+are about rejecting or failing to reject such hypothesis.

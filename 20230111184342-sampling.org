@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f9fbbf0f-9cc6-4f3d-8329-1db496ba446e
+:END:
+#+title: sampling
+
+In [[id:1b63d5d6-2956-436d-8e0e-9374ad160f44][Statistics]] and [[id:1ea3fed6-1ad4-42ae-970a-e2306f9b2396][Probability]] sampling referes to the process where we (or a
+computer) randomly picks a value from a distribution (either from a curve or
+from a histogram), i.e., we choose a random value from the probabilities
+described by the histogram or curve.
