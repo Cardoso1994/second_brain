@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       318ae31d-f352-45b2-ae88-563188c7b26b
+:END:
+#+title: image segmentation
+
+Is a task of [[id:4738d199-737d-4b8a-80c2-2200c56fd763][computer vision]].
+
+Its main goal is to divide an image into subparts; this partition is made by
+detecting objects belonging to a given class. The idea here is to demonstrate
+that the algorithm is capable of dicerning between, say, a car and the
+background. Normally, image segmentation defines a mask, which can be used
+to detect the same object on new images.
+
+* Semantic Segmentation
+This kind of segmentation tries to classify several objects in an image, from a
+given set of labels.
+
+In general terms, it returns a mask with same size (width and height) of the
+original image, where each "pixel" value corresponds to the object label that
+pixel belongs to. In other words, semantic segmentation can be seen as a
+classification task on the pixel level.
+
+The mask returned, can be split into sub-masks, each of them of the same size,
+and each of them corresponding to one object on the image.

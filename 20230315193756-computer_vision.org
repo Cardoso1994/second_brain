@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       4738d199-737d-4b8a-80c2-2200c56fd763
+:END:
+#+title: computer vision
+
+Computer vision is a subfield of [[id:2621f109-bba2-4566-8edc-2d5e8e4783e0][computer science]] and [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]]; its main
+goal is to provide the computer with the ability to "see" and interpret what
+they see.
+
+This field takes advantage of image processing, which is a subfield that works on
+image data in order to extract features or new data, to enable, ideally, the
+computer to understand what is in an image.
+
+Computers store images as arrays (or matrices), where each value of the array
+corresponds to the intensity of a given color in that image's location. In color
+images we have three channels: red, green and blue; whereas in blanck and white
+there is only one channel.
+
+* Tasks
++ [[id:2918962a-9108-4527-a30e-d550d0e994c6][Classification]]: given some images, classify them from a set of labels.
++ Object Detection: detect, with bounding boxes, where an object, from a given
+  set of classes, is present in the image.
++ [[id:318ae31d-f352-45b2-ae88-563188c7b26b][image segmentation]]: divide an image into subparts; this partition is made by
+  detecting objects belonging to a given class. The idea here is to demonstrate
+  that the algorithm is capable of dicerning between, say, a car and the
+  background. Normally, image segmentation defines a mask, which can be used
+  to detect the same object on new images.
