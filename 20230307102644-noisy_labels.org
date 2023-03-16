@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       ece8ffef-3bdc-4c3a-a230-d71cab69ff06
+:END:
+#+title: noisy labels
+
+Noisy labels is a term used in [[id:c8fd948c-556b-4f7c-aa80-c5f83904a39a][Machine Learning]] to labels assigned to a given
+pattern, in a dataset, that are erroneous; i.e., the original dataset comes with
+some patterns misslabeled. For example: a picture of a plane being labeled as a
+boat or a car.
+
+* Kind of Mistakes
++ someone click the wrong bottos (upvote vs downvote)
++ Mismeasuremente
++ Incompetence
++ Bad predictions from a model used for labeling
+* Types of label noise
+** Uniform/symmetric class-conditional label noise
++ $p(\tilde y = i \vert y^* = j) = \epsilon, \forall i \neq j$
+Here we assume that every class, has a uniform probability of being
+misslabeled as other class. In an example of 6 classes, our Label Noise Matrix
+would be:
+|-----+-----+-----+-----+-----|
+| 0.6 | 0.1 | 0.1 | 0.1 | 0.1 |
+| 0.1 | 0.6 | 0.1 | 0.1 | 0.1 |
+| 0.1 | 0.1 | 0.6 | 0.1 | 0.1 |
+| 0.1 | 0.1 | 0.1 | 0.6 | 0.1 |
+| 0.1 | 0.1 | 0.1 | 0.1 | 0.6 |
+|-----+-----+-----+-----+-----|
+where the diagonal gives the probabilities for each class, to be correctly
+labeled, while the other columns (for each row) give the probability of
+a patter of row's class being assigned to column's class.
+** Systematic/asymmetric class-conditional label noise
+Real world does not follow a uniform distribution, it is more chaotic than that.
+This is similar to symmetric class-conditionla label noise but instead, it works
+with *any valid probability distribution*.
