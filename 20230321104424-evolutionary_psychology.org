@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       8a8a75b2-4e5b-4112-8480-269a772db4fd
+:END:
+#+title: Evolutionary Psychology
+
+It is a theory on the origins of cognition.
+
+It is composed of four main claims:
+1. *The brain is a product of natural selection*
+2. The human brain adapted to solve particular problems which our ancestors
+   faced
+3. The cognitive capacities which our ancestors developed that allowd them to
+   solve problems were heritable: they could be transmitted biologically from
+   parent to offspring
+4. The brains we have now are the brains which our ancestors evolved all those years ago.
+
+  It takes into account that, from about 1.8 million years ago to 10k years ago,
+  humans lived in small groups, dedicated to hunt and gather as means of
+  survival.
+
+  So the theory states that the human brain evolved certain characteristics that
+  were useful for our survival on those setups. For example: we are well suited
+  to detect social injustices, since in those days, one must have been able to
+  identify which member of the group was only benefiting from other's work
+  without contributing.
+
+  Additionally, we, as a species, tend to react to snakes and spiders, because
+  in such days, an encounter with any of these animals could lead to real harm
+  and even death, while nowadays very few people are killed by spiders or
+  snakes, specially when compared to the ammount of peoply dying in car
+  accidents for no using a seat belt; to the latter, we do not react as
+  vigorously, even thouth it poses a bigger threat in these days.
+
+  Another example is our craving from sugar and salt; in early days it was an
+  important feature to survive, since it was not abundant. Now, since we have
+  pretty easy acces to this kind of food, this features works now more as a
+  mal-adaptation.

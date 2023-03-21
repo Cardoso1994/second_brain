@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       1ef0f1c5-d9bd-4fca-b700-11b42c6f6662
+:END:
+#+title: Natural Selection
+
+
+*Theory proposed by Charles Darwin.*
+
+It serves as a means of filtering on nature. Nature /filters out/ the
+inidividuals that are less suited to their environment.
+
+In [[id:ba9c3dd2-1038-4ac8-ae68-45bf780eefa5][Biology]], these adaptations are refered to as /mutations/, for a change to be
+mutation, it has to be present on some individuals while abscent on others. If
+the mutation is positive to the individual, it will allow it for a better life,
+which will let such individual to pass this mutation to its offspring.
+
+* Cognition
+One question arises: can we use a theory such as natural selection and evolution
+to determine the evolutional path of human cognition?.
+So far, the fisiology of the brain only tells a little part of the story; and
+acquired capabilities, such as math leave no trace on a fossil.
+
+
+
+
+
+
+* Related Areas
+[[id:ba9c3dd2-1038-4ac8-ae68-45bf780eefa5][Biology]]
