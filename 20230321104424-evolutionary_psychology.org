@@ -35,3 +35,15 @@ It is composed of four main claims:
   important feature to survive, since it was not abundant. Now, since we have
   pretty easy acces to this kind of food, this features works now more as a
   mal-adaptation.
+
+* Multiple mini-computers
+This theory also states that the brain evolved step by step and that, each
+function appeared independently of others; similar to the eyes, where first we
+developed a retina, followed by cones and rods, which allow for color vision and
+better focus, instead of just the capability of differentiating between light
+and dark.
+
+Similarly, this theory states that each part of our cognition was developed
+independently from others, hence, we have multiple mini-computers, each one of
+them specialized in an specific cognitive function, each of these mini-computers
+is called a *cognitive module*
