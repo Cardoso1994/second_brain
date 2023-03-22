@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       06c02b36-7648-4fa9-86c4-3e2b22b5066f
+:END:
+#+title: Niche construction
+
+In the Niche construction theory it is stated that organisms effect changes in
+their environments. Individuals actively modify the environment, for example,when building nests,
+dams, artifacts, when creating shelter, or altering plants cycles.
+
+Niche construction proposes a new method of evolution, when such environments
+affectations start to effect certain pressure in natural selection processes.
+
+#+begin_quote
+The organism influences its own evolution, by being both the object of natural selection and the creator of the conditions of that selection (Levins and Lewontin 1985, p 106).
+#+end_quote
+
+There are 3 criteria to test the presence of niche construction:
+1. An organism must significantly modify environmental conditions;
+2. Organism-mediated environmental modifications must influence selection
+   pressures on a recipient organism;
+3. There must be an evolutionary response in at least one recipient population
+   caused by the environmental modification.
+
+Here, 1 and 2 define niche construction; 3 is a test of evolution by niche
+construction.
+
+In terms of human cognition, it is now mostly accepted that niche construction
+has played an important role on its development, since humans have great
+capabilities to change and impact the environment, which in turn translates into
+pressure to adapt to such new environment. It has been proven, by math models,
+that cultural processes can modify selection on human genes, thus, driving
+evolutionary events.
+
+A great example supporting this fact is that, mammals tend to become lactose
+intolerant over the years (when we stop drinking mother's milk), but in some
+cultures, those where farming has been an important activity, many adults are
+capable of producing lactase (needed to process lactose); then, cultural
+manifestations have influenced the genes on certain populations.
+
+* Related
++ [[id:c25546d3-5dc7-40e2-bb0b-62c9bfa08c9c][Cognitive Sciences]]
++ [[id:8a8a75b2-4e5b-4112-8480-269a772db4fd][Evolutionary Psychology]]
++ [[id:ba9c3dd2-1038-4ac8-ae68-45bf780eefa5][Biology]]
+* References
+1. An introduction to niche construction theory.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4922671/

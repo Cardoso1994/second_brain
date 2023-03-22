@@ -47,3 +47,6 @@ Similarly, this theory states that each part of our cognition was developed
 independently from others, hence, we have multiple mini-computers, each one of
 them specialized in an specific cognitive function, each of these mini-computers
 is called a *cognitive module*
+
+*  Related
++ [[id:c25546d3-5dc7-40e2-bb0b-62c9bfa08c9c][Cognitive Sciences]]
