@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       1142656c-acb4-45b7-96ef-6cebb3a59ce8
+:END:
+#+title: Human Brain
+
+
+
+* Related to
++ [[id:1dcd538c-8da6-4b82-bc26-02bf192dff53][Brain]]
++ [[id:854902d5-a186-4c5b-840d-0cc33d8beb25][Neuroscience]]

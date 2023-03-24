@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ee12386b-15e2-499f-9244-5efbd3b894d9
+:END:
+#+title: Neuroimaging
+
+A collection of methods to image the structural, functional and chemical
+propoerties of the central nervous system.
+
+* Related to
++ [[id:854902d5-a186-4c5b-840d-0cc33d8beb25][Neuroscience]]

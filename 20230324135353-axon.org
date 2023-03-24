@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       254b2e0e-9d6d-4a71-b777-366c6a5ed476
+:END:
+#+title: Axon
+
+This are some sort of wires on the brain; they can vary in length, from a few
+milimeters to lengths necessary to connect different regions of the brain.
+
+The axon's job is to transmit electrical signals formed in the [[id:0ccb6464-f654-499f-aeb2-0f6cbd6a7b45][Neuron]] cell body
+to the axon terminal (also called presynaptic terminals) towards target neurons.
+Usually the connect to

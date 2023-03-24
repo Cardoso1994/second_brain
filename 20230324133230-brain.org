@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       1dcd538c-8da6-4b82-bc26-02bf192dff53
+:END:
+#+title: Brain
+
+We can find in the brain *two* different types of cells:
++ [[id:0ccb6464-f654-499f-aeb2-0f6cbd6a7b45][Neurons]] :: highly specialized and interconnected cellular unit of the brain
++ [[id:04b43be6-9126-456e-a6a3-fc9866d51f76][Glia]] :: non-neuronal supportive cellular elements
+
+* Related to
++ [[id:854902d5-a186-4c5b-840d-0cc33d8beb25][Neuroscience]]

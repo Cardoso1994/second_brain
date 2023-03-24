@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       854902d5-a186-4c5b-840d-0cc33d8beb25
+:END:
+#+title: Neuroscience
+
+Multidisciplinary study of the biological basis of behavior. Among the
+disciplines that cover neuroscience we find:
++ Neuroanatomy :: structure of the brain
++ Neurochemistry :: chemical properties of communication in the brain
++ Neurophisiology :: electrical properties of the brain
++ Neuropsychology :: cognitive domain (related to [[id:c25546d3-5dc7-40e2-bb0b-62c9bfa08c9c][Cognitive Sciences]])
+
+* Branches
++ Molecular Neuroscience
++ Cognitive Neuroscience
++ Clinical Neuroscience
++ Computational Neuroscience
++ Development Neuroscience
++ Cultural Neuroscience

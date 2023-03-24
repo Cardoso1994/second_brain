@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       0ccb6464-f654-499f-aeb2-0f6cbd6a7b45
+:END:
+#+title: Neurons
+
+These cells are the fundamental processing unit of the [[id:1dcd538c-8da6-4b82-bc26-02bf192dff53][Brain]]
+[[file:./img/neurons.jpg]]
+
+The general structure of a neuron is composed of:
++ [[id:9f79ae6f-d3a1-4d26-9aa7-dde4bcd0650a][Dendrites]]
++ [[id:4fd85afa-1aff-4600-9e37-73b1ca21f2e8][Cell body (Neurons)]]
++ [[id:254b2e0e-9d6d-4a71-b777-366c6a5ed476][Axon]]
+
+[[file:./img/neuron_structure.png]]
+
+
+* References
+1. [[https://www.coursera.org/learn/neuroscience-neuroimaging][Fundamental Neuroscience for Neuroimaging. John Hopkins. Coursera]]
