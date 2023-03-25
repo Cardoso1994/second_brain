@@ -5,7 +5,7 @@
 
 In  [[id:5eda3501-cc78-4551-a52b-565f0b6b030b][hypothesis_testing]], it is important to select a good hypothesis to be
 tested. Following with those examples from such node, where we were testing
-if there were a difference on recovery times for people taking different drugs,
+if there was a difference on recovery times for people taking different drugs,
 we can state our initial hypothesis as:
 #+begin_quote
 There is no difference between recovery times of drugs A and B
